@@ -41,4 +41,18 @@
     if(7 != 3){//true
         echo "comparação diferente 3 <br>";
     }
+
+    //OP NÃO IDENTICO A !==  tem que ter valor e/ou tipos diferentes
+
+    if(3 !== "3"){//true
+        echo "comparação diferente 4 <br>";
+    }
+
+    if(3 !== 3){//false
+        echo "comparação diferente 5<br>";
+    }
+
+    //OP MAIOR, MAIOR IGUAL, MENOR E MENOR IGUAL funcionamento como outras linguagens
+
+
 ?>
