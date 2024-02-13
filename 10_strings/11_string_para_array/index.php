@@ -10,4 +10,6 @@
 
     print_r($fraseArray);
 
+    //implode faz o contrario
+
 ?>
